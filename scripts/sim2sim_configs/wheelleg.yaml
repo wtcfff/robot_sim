@@ -1,0 +1,12 @@
+# Target-specific mapping only. Dimensions, control and history come from PT.
+xml: resources/robots/wheelleg/urdf/scene.xml
+base_body: base_link
+joint_mapping:
+  L_hip_Joint: {joint: L_hip_Joint, actuator: L_hip_motor, sign: 1.0, offset: 0.0}
+  L_thigh_Joint: {joint: L_thigh_Joint, actuator: L_thigh_motor, sign: 1.0, offset: 0.0}
+  L_calf_Joint: {joint: L_calf_Joint, actuator: L_calf_motor, sign: 1.0, offset: 0.0}
+  L_foot_Joint: {joint: L_foot_Joint, actuator: L_foot_motor, sign: 1.0, offset: 0.0}
+  R_hip_Joint: {joint: R_hip_Joint, actuator: R_hip_motor, sign: 1.0, offset: 0.0}
+  R_thigh_Joint: {joint: R_thigh_Joint, actuator: R_thigh_motor, sign: 1.0, offset: 0.0}
+  R_calf_Joint: {joint: R_calf_Joint, actuator: R_calf_motor, sign: 1.0, offset: 0.0}
+  R_foot_Joint: {joint: R_foot_Joint, actuator: R_foot_motor, sign: 1.0, offset: 0.0}
